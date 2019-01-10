@@ -1,0 +1,36 @@
+/*
+      HERO
+ */
+
+.hero{
+  background-image: url('../img/Slider/hero.jpg');
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -300px;
+  background-attachment: fixed;
+}
+
+
+/*
+      MENU
+ */
+
+.navbar-brand img{
+  height: 100px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  text-transform: uppercase;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.multi-lang-menu{
+
+}
+
+

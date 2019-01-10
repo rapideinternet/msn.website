@@ -1,0 +1,30 @@
+{
+  "name": "msn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.2",
+    "laravel-elixir": "^6.0.0-18",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-watch-sass": "^1.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jillzz93/MSN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jillzz93/MSN/issues"
+  },
+  "homepage": "https://github.com/Jillzz93/MSN#readme"
+}

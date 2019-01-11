@@ -10,6 +10,7 @@
     "yarn": "^1.13.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-watch-sass": "^1.4.1"
   },

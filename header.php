@@ -14,7 +14,6 @@
 
             <?php //OWN CSS ?>
             <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
-
         </head>
         <body>
         <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top justify-content-center">
@@ -25,35 +24,38 @@
                 </button>
                 <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
                     <ul class="navbar-nav w-100 justify-content-center">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                        <li class="nav-item" id="home">
+                            <span class="nav-link"><a href="/#home-top">Home</a></span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">App</a>
+                        <li class="nav-item" id="app">
+                            <span class="nav-link"><a href="/#app-top">App</a></span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Partners</a>
+                        <li class="nav-item" id="partners">
+                            <span class="nav-link"><a href="/#partners-top">Partners</a></span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">App-store</a>
+                        <li class="nav-item" id="appstore">
+                            <span class="nav-link"><a href="/#appstore-top">App-store</a></span>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                        <li class="nav-item" id="contact">
+                            <span class="nav-link"><a href="/#contact-top">Contact</a></span>
                         </li>
                     </ul>
 
                 </div>
-                <ul class="nav navbar-nav ml-auto w-50 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">NL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">EN</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">DE</a>
-                    </li>
-                </ul>
+                <div class="row multi-lang">
+                    <div class="col-md-4 col-4">
+                        <a href="https://langssporen.nl">NL</a>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <a href="https://aufspuren.de">EN</a>
+                    </div>
+                    <div class="col-md-4 col-4">
+                        <a  href="https://alongtraces.com">DE</a>
+                    </div>
+                </div>
+
+
+
             </div>
         </nav>
 

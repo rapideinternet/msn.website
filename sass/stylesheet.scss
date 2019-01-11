@@ -1,15 +1,55 @@
 /*
+      STANDARD
+ */
+
+$color-orange: #EC6608;
+$color-blue: #23396A;
+
+body{
+  font-family: 'Lato';
+  font-size: 15px;
+  color: $color-blue;
+  @media (max-width: 1024px){
+    font-size: 13px;
+  }
+}
+
+
+a:hover{
+  text-decoration: none !important;
+}
+/*
       HERO
  */
 
 .hero{
   background-image: url('../img/Slider/hero.jpg');
-  height: 75vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px -300px;
+  background-position: 0px -150px;
   background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  @media (max-width: 400px){
+    background-position: 0 0;
+  }
+  h2{
+    font-size: 36px;
+    font-family: Lora;
+    font-weight: bold;
+
+  }
+  h3{
+    font-size: 60px;
+    font-family: Lato;
+    font-weight: bold;
+    @media (max-width: 400px){
+      font-size: 40px;
+    }
+  }
 }
+
 
 
 /*
@@ -20,7 +60,6 @@
   height: 100px;
 }
 
-
 .navbar-light .navbar-nav .nav-link {
   color: #000;
   text-transform: uppercase;
@@ -29,8 +68,244 @@
   font-weight: bolder;
 }
 
-.multi-lang-menu{
+.nav-item{
+  a{
+    color: $color-blue;
+  }
+}
 
+.bg-light{
+  background-color: rgba(255,255,255,0.7) !important;
+}
+
+.multi-lang{
+  text-align: center;
+  a{
+    color: $color-orange;
+  }
+  @media (max-width: 400px){
+    width: 100%;
+  }
+}
+
+/*
+      INTRO
+ */
+
+.home-intro{
+  padding: 60px 0;
+  @media (max-width: 400px){
+    padding: 20px 0;
+  }
+
+  img{
+    width: 80%;
+    @media (max-width: 400px){
+      width: 100%;
+      padding: 20px;
+    }
+  }
+
+  p{
+    line-height: 1.7;
+    @media (max-width: 400px){
+      padding: 0px 20px;
+    }
+  }
+}
+
+.intro-logo::after{
+  background:$color-orange;
+  display: block;
+  content: '';
+  height: 120%;
+  width: 4px;
+  position: absolute;
+  top: -25px;
+  right: 50px;
+  @media (max-width: 900px){
+    width: 0px;
+
+  }
+  @media (max-width: 400px){
+    width: 0px;
+  }
+}
+
+/*
+grid
+ */
+
+.home-grid{
+  background-color: #EBEBEB;
+}
+.grid-block-video{
+
+  width: 100%;
+}
+.grid-block{
+  background-color: #fff;
+  height: 560px;
+  text-align: center;
+  img{
+    width: 100%;
+    height: 222px;
+  }
+
+  h2{
+    font-family: 'Lora';
+    font-size: 34px;
+    color: $color-blue;
+    padding: 25px 0 10px 0;
+  }
+  a{
+    color: #fff;
+  }
+
+  p{
+    color: $color-blue;
+    line-height: 1.9;
+    padding:0 15px;
+  }
+  span{
+    height: 50px;
+    width: 270px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    line-height: 4;
+    background-color: $color-orange;
+  }
+}
+/*
+load app
+ */
+.load-app{
+  iframe{
+    height: 80vh;
+    width: 100%;
+    border: 0px;
+
+  }
+}
+
+#load-app-display{
+  display: none;
+}
+
+/*
+partners
+ */
+
+.home-partners{
+  text-align: center;
+  h2{
+    font-size: 36px;
+    padding:10px 0;
+    color: $color-blue;
+    font-family: Lora;
+  }
+  p{
+    line-height: 1.9;
+
+  }
+  img{
+    width: 100%;
+  }
+}
+
+/*
+footer
+ */
+
+.footer-top{
+  height: 333px;
+  background-color: $color-blue;
+  color: #fff;
+  text-align: center;
+  @media (max-width: 400px){
+   height: auto;
+  }
+
+  img{
+    width: 100%;
+  }
+  h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+.footer-app{
+  margin-top: 90px;
+  @media (max-width: 400px){
+    margin-top:20px;
+  }
+}
+.footer-app::after{
+  background:#fff;
+  display: block;
+  content: '';
+  height: 100%;
+  width: 4px;
+  position: absolute;
+  top: 30;
+  bottom: 0;
+  right: 0;
+  @media (max-width: 400px){
+    width: 0;
+  }
+}
+
+.footer-adres{
+  margin-top: 90px;
+  @media (max-width: 400px){
+    margin-top:20px;
+  }
+}
+
+.footer-bottom{
+  color:#fff;
+  height: 103px;
+  background-color: $color-orange;
+  line-height: 7;
+  i{
+    padding: 0 7px;
+  }
 }
 
 
+/*
+hoe werkt het
+ */
+
+.hoe-werkt-het{
+  margin-top: 170px;
+  margin-bottom: 150px;
+  .breadcrumb{
+    background-color: #fff;
+  }
+  ol{
+    padding:0px;
+    a{
+      color: $color-orange;
+    }
+  }
+  h2{
+    font-family: Lora;
+    color:$color-blue;
+    font-weight: bold;
+  }
+  h3{
+    font-family: Lora;
+    color:$color-orange;
+    font-weight: bold;
+  }
+}

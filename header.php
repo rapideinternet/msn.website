@@ -16,7 +16,7 @@
             <link rel="stylesheet" href="/css/stylesheet.css" type="text/css">
         </head>
         <body>
-        <nav class="navbar navbar-light navbar-expand-md bg-light fixed-top justify-content-center">
+        <nav class="navbar navbar-light navbar-expand-md fixed-top justify-content-center">
             <div class="container">
                 <a href="/" class="navbar-brand d-flex w-50 mr-auto"><img src="../img/Logo/NL.svg" alt="MSN-logo" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">

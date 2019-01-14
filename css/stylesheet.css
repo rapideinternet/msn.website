@@ -45,7 +45,23 @@ a:hover {
 .navbar-brand img {
   height: 100px; }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar {
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out; }
+  @media (max-width: 1044px) {
+    .navbar {
+      background-color: #fff; } }
+
+.navbar.scrolled {
+  background: white;
+  /* IE */
+  background: white;
+  /* NON-IE */ }
+
+.navbar-nav .nav-link {
   color: #000;
   text-transform: uppercase;
   font-family: 'Lato';
@@ -54,9 +70,6 @@ a:hover {
 
 .nav-item a {
   color: #23396A; }
-
-.bg-light {
-  background-color: rgba(255, 255, 255, 0.7) !important; }
 
 .multi-lang {
   text-align: center; }

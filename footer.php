@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row justify-content-end">
             <div class="col-12 col-md-6">
-                Grenspark Maas-Swalm en Nette - © 2018 Exposia
+                Grenspark Maas-Swalm en Nette - © 2018 Rapide Internet
             </div>
             <div class="col-12 col-md-2">
                 <i class="fab fa-facebook-f"></i>

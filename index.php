@@ -13,7 +13,7 @@
 <section class="container home-intro">
     <div class="row">
         <div class="col-12 col-md-4 col-lg-6 intro-logo">
-            <img src="../img/Logo/NL.svg" alt="Logo" />
+            <img src="./img/Logo/NL.svg" alt="Logo" />
         </div>
         <div class="col-12 col-md-12 col-lg-6 justify-content-center align-self-center">
             <p>
@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="grid-block">
-                    <img src="/img/grid/hoe-werkt-het.jpg" alt="picture" />
+                    <img src="./img/grid/hoe-werkt-het.jpg" alt="picture" />
                     <h2>Hoe werkt het?</h2>
                     <p>
                         Deze website “Langs sporen” biedt de mogelijkheid de cultuurgeschiedenis, natuur en het landschap van het Duits-Nederlands Grenspark Maas-Swalm-Nette te ontdekken. Dit gebied is gelegen tussen de stedendriehoek Venlo, Roermond en Monchengladbach.
@@ -49,7 +49,7 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="grid-block">
-                    <img src="/img/grid/route-maken.jpg" alt="picture" />
+                    <img src="./img/grid/route-maken.jpg" alt="picture" />
                     <h2>Eigen Route maken</h2>
                     <p>
                         Stel hier met gemak een route samen. Wandelen, Kletsen of met de auto, het is allemaal mogelijk! Verbindt de POI’s op de kaart om een route te maken. Gebruik de filterfunctie om je wensen voor deze route te bepalen.
@@ -60,7 +60,7 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="grid-block">
-                    <img src="/img/grid/routes.jpg" alt="picture" />
+                    <img src="./img/grid/routes.jpg" alt="picture" />
                     <h2>Routes</h2>
                     <p>
                         Pak je fiets of trek je wandelschoenen aan en ontdek de prachtige routes door Grenspark Maas-Swalm-Nette. Deze routes zijn kant en klaar, je hoeft alleen nog maar te beginnen!
@@ -71,7 +71,7 @@
 
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="grid-block">
-                    <img src="/img/grid/themas.jpg" alt="picture" />
+                    <img src="./img/grid/themas.jpg" alt="picture" />
                     <h2>Thema's</h2>
                     <p>
                         Maak hier een keuze uit één van de zes verschillende thema’s. Een thema bevat diverse Points of Interest en themaroutes. Deze themaroutes nemen je mee langs de POI’s die je meer kunnen vertellen over dit thema.
@@ -82,7 +82,7 @@
 
             <div class="col-12 col-md-6 col-lg-4 ">
                 <div class="grid-block">
-                    <img src="/img/grid/onthaalpunten.jpg" alt="picture" />
+                    <img src="./img/grid/onthaalpunten.jpg" alt="picture" />
                     <h2>Onthaalpunten</h2>
                     <p>
                         Ontdek alle onthaalpunten waar je welkom wordt geheten in het gebied. Op deze plekken kan je onder andere je auto parkeren, een kopje koe drinken of toegang tot WiFi krijgen om de app te downloaden.
@@ -93,7 +93,7 @@
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="grid-block">
-                    <img src="/img/grid/pois.png" alt="picture" />
+                    <img src="./img/grid/pois.png" alt="picture" />
                     <h2>POI'S</h2>
                     <p>
                         Het gebied kent meer dan 350 bijzondere locaties, zogeheten Points of Interest. Ontdek deze locaties hier, variërend van kerken tot kastelen en van natuurgebieden tot molens.
@@ -104,7 +104,7 @@
 
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="grid-block">
-                    <img src="/img/grid/activiteiten.png" alt="picture" />
+                    <img src="./img/grid/activiteiten.png" alt="picture" />
                     <h2>Activiteiten</h2>
                     <p>
                         Het Grenspark Maas-Swalm-Nette organiseert allerlei activiteiten voor jong en oud. Ontdek hier wanneer je in het gebied moet zijn om niks te missen! Heb je een agenda bij de hand?
